@@ -1,0 +1,79 @@
+body{
+    background-color:purple;
+
+    
+}
+header{ text-align: center;
+    h1{
+        text-align: center;
+        color: blue;
+        background-color:white ;
+        border:3px solid black;
+        border-radius: 15px;
+        padding: 5px;
+        
+    }
+}
+nav ul li{
+    list-style-type: none;
+    background-color: white;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+project{
+    text-align: center;
+    h2{
+        color: blue;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+}
+p{
+    color: white;
+    background-color: blue;
+    border-radius: 7px;
+    border: 1px solid white;
+    padding: 20px;
+}
+ /* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📱 Mobile styles */
+@media (max-width: 600px) {
+  .product-grid {
+    flex-direction: column;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+}/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📱 Mobile styles */
+@media (max-width: 600px) and (min-width:300px) {
+  .product-grid {
+    flex-direction: column;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+}
+@media (max-width:900px) and (min-width:600px)
+{.product-grid{
+    flex-direction: row;
+flex-wrap: wrap;
+}}
+header nav ul{flex-direction: row-reverse;}
