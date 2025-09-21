@@ -62,7 +62,7 @@ body {
 }
 
 /* 📱 Mobile styles */
-@media (max-width: 600px) and (min-width:300px) {
+@media (max-width: 300px) and (min-width:190px) {
   .product-grid {
     flex-direction: column;
   }
@@ -71,9 +71,17 @@ body {
     flex-direction: column;
   }
 }
-@media (max-width:900px) and (min-width:600px)
-{.product-grid{
-    flex-direction: row;
-flex-wrap: wrap;
-}}
-header nav ul{flex-direction: row-reverse;}
+@media (min-width:301px) and (max-width:500px)
+{
+    body{
+        color :green;
+        background-color: red;
+
+    }
+}
+@media(min-width:501px) and (max-width:600px)
+{
+    body{background-color: green;
+        color: tomato;
+    }
+}
